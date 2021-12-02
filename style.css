@@ -1,0 +1,127 @@
+body {background: #E5E5E5;}
+
+.rectangle{
+    margin: auto;
+    position: relative;
+    display: flex;
+    width: 595px;
+    height: 842px;
+    background-color: #FFFFFF;
+}
+
+.rectangle__line{
+    width: 595px;
+    height: 4px;
+    background: #101214;
+}
+
+.rectangle__heading{
+    position: absolute;
+    width: 197px;
+    height: 60px;
+    font-family: Arial;
+    line-height: 28px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 350px;
+    padding-bottom: 734px;
+}
+
+.rectangle__name{
+    font-size: 24px;
+}
+
+.rectangle__position{
+    font-size: 18px;
+}
+
+img.rectangle__avatar{
+    border-radius: 50%;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 407px;
+    top: 36px;
+    background: url(avatar.jpg);
+    filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08));
+}
+
+.rectangle__experience{
+    position: absolute;
+    width: 335px;
+    height: 630px;
+    font-family: Arial;
+    font-size: 7px;
+    line-height: 18px;
+    color: #73808D;
+    padding-top: 140px;
+    padding-left: 48px;
+    padding-right: 212px;
+    padding-bottom: 72px;
+}
+
+.rectangle__experience-title{
+    font-size: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+}
+
+.rectangle__experience-position{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #101214;
+
+}
+
+.rectangle__experience-enterprise{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #101214;
+}
+
+.rectangle__experience-date{
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #73808D;
+}
+
+.rectangle__experience-text{
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #101214;
+}
+
+.rectangle__links{
+    position: absolute;
+    width: 140px;
+    height: 558px;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 18px;
+    padding-top: 140px;
+    padding-left: 407px;
+    padding-right: 48px;
+    padding-bottom: 144px;
+    color: #73808D;
+}
+
+.rectangle__links-title{
+    font-weight: bold;
+}
+
+.rectangle__links-text{
+    font-weight: normal;
+}
